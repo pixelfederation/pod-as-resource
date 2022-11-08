@@ -1,0 +1,4 @@
+tainttest: 2 #name of instance group kops.k8s.io/instancegroup: tainttest
+otthergroup: 2 #name of instance group kops.k8s.io/instancegroup: otthergroup
+
+
