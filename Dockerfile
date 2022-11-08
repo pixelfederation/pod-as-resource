@@ -11,7 +11,7 @@ FROM alpine:3.16.2
 RUN apk add --no-cache bash
 
 COPY --from=builder /app/pod-as-resource /pod-as-resource
-COPY example-config.yaml /etc/pod-as-resource.yaml
+COPY examples/example-config.yaml /etc/pod-as-resource/config.yaml
 
 
 ENTRYPOINT [ "/pod-as-resource" ]
