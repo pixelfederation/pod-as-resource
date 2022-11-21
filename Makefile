@@ -12,4 +12,5 @@ help: ## This help.
 build:
 	docker build --tag ${REPOSITORY}/${APP_NAME}:${GIT_HASH} .
 push:
-    docker push ${DOCKER_USERNAME}/${APPLICATION_NAME}
+	docker push ${DOCKER_USERNAME}/${APPLICATION_NAME}
+
